@@ -1,0 +1,144 @@
+{
+  "id": "d0e18dd2-855a-46f7-b2fb-5e9014ab84b4",
+  "version": "2.0",
+  "name": "igindmitry_test",
+  "url": "https://qa.neapro.site/login",
+  "tests": [{
+    "id": "97aa7a4a-8538-41b1-95b3-50710b3f716c",
+    "name": "Open",
+    "commands": [{
+      "id": "bb9b86af-85d4-459d-909b-b0fcfeb79eaf",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "https://qa.neapro.site/login"
+    }, {
+      "id": "f0afda51-b9a4-485b-9b15-10f1df337c58",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "19id87@list.ru"
+    }, {
+      "id": "eeff88fd-2dea-4056-b99f-9deec1fd1a9c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "10916145"
+    }, {
+      "id": "d87cd21e-04d4-4edb-a0a2-f084333feee2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "02c06c43-f740-4092-84d0-a2b69283aaee",
+    "name": "open-close",
+    "commands": [{
+      "id": "936d9c6c-6e30-4312-8509-c47802ba0b75",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.neapro.site/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2f78f55-fbb5-4860-95c0-98cc29f3d5a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1281x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a63673a-6b3f-4b94-965c-72d6a827afa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df997733-ad9f-44b1-b5a4-dcfc1e7bdd80",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "19id87@list.ru"
+    }, {
+      "id": "d64fba40-5ec8-47b9-9891-96db145762b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dee1b0f8-87fa-45c8-bc9b-97740125dc6d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "10916145"
+    }, {
+      "id": "4f985322-2451-4163-b0e4-947530ee7049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d902e9b4-d361-434b-a9e6-c9aad3063e2d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["97aa7a4a-8538-41b1-95b3-50710b3f716c"]
+  }],
+  "urls": ["https://qa.neapro.site/login"],
+  "plugins": []
+}
